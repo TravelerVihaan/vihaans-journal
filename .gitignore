@@ -1,8 +1,10 @@
-HELP.md
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+logs/
+.mvn/wrapper/maven-wrapper.jar
+**/src/main/**/target/
+**/src/test/**/target/
+mvnw
+mvnw.cmd
 
 ### STS ###
 .apt_generated
@@ -12,9 +14,10 @@ target/
 .settings
 .springBeans
 .sts4-cache
+/bin
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -31,3 +34,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Gradle ####
+settings.gradle
+gradlew.bat
+gradlew
+gradle/**
+build.gradle
